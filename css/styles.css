@@ -1,0 +1,227 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+    
+}
+
+/* 
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+
+} */
+
+
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat';
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.container-fluid {
+    padding:3% 15%;
+}
+
+p{    
+    color:#8f8f8f;
+}
+
+/* section */
+.colored-section{
+    background-color: #41c3f7;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat';
+    font-size:3.5rem;
+    line-height:1.5; 
+    color: white;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family:'Ubuntu';
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:'Montserrat-light';
+}
+
+/* Download buttons */
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+    position: absolute;
+    width: 30%;
+    transform: rotate(25deg);
+    right: 10%;
+
+}
+
+/* Features */
+
+#features{
+  
+    position: relative;
+}
+.feature-title{
+    font-size:1.5rem;
+
+}
+
+.fas1 {
+    color:#41c3f7;
+    font-size: 75px;
+    padding-bottom:20px;
+  
+}
+
+.fas1:hover{
+    color: crimson;
+
+}
+
+.feature{
+    
+    margin: 100px 0;
+}
+
+.feature1{
+    padding: 20px 20px;
+}
+
+.feature2{
+    padding: 20px 20px;
+}
+
+.feature3{
+    padding: 20px 20px;
+}
+
+/* testimonial-section */
+
+#testimonials {
+    
+    background-color: #41c3f7;
+    color:#fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin: 10px;
+}
+
+/* press section */
+
+#press{
+    background-color: #41c3f7;
+    
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing selector */
+
+#pricing{
+
+    padding:100px;
+
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* #call-toaction */
+
+/* #cta{
+   
+    background-color: #ff4c68;
+
+} */
+
+/* .ctah3{
+    font-family: 'Montserrat';
+    font-size:3rem;
+    color:#fff;
+
+} */
+
+/* footer */
+
+/* #footer {
+    background-color: #fff;
+    
+} */
+
+.icon-footer{
+    padding: 1% 1%;
+}
+
+/* Resposive */
+
+@media (max-width: 920px) {
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+        width:100%;
+        margin-left: 110px;
+    }
+
+    #title{
+        position:static;
+        text-align: center;
+    
+    }
+
+
+
+
+}
